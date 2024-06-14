@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="bt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="./img/logofav.png" type="image/x-icon">
+    <script src="app.js" async></script>
+    <title>Fawstino-hamburgueria</title>
+</head>
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                   <img src="./img/logohamb.png"  class="logoti">
+                </div>
+                <div class="redes-sociais">
+                  <ul>
+                    <li class="insta"><a href="https://www.instagram.com/naul_ks?igsh=cDU1ejVuMWxyNmtu"><img src="./img/instalogo.png"class="logo-ins"></a></li>
+                    <li><a href="https://wa.me/qr/WPGOZDH3H3VZC1"><img src="./img/whatlogo.png"class="logo-wat"></a></li>
+                  </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+    <section class="contenedor">
+        <!-- items cardapio -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">X-Picanha</span>
+                <img src="img/1 30.png" alt="" class="img-item">
+                <span class="precio-item">R$30</span>
+                <button class="boton-item">Colocar no Carrinho</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">X-Bacon</span>
+                <img src="img/2 35.png" alt="" class="img-item">
+                <span class="precio-item">R$35</span>
+                <button class="boton-item">Colocar no Carrinho</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">X-Salada</span>
+                <img src="img/3 40.png" alt="" class="img-item">
+                <span class="precio-item">R$40</span>
+                <button class="boton-item">Colocar no Carrinho</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Coxinha de Frango</span>
+                <img src="img/4 5.png" alt="" class="img-item">
+                <span class="precio-item">R$5,00</span>
+                <button class="boton-item">Colocar no Carrinho</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Combo 2xPicanha</span>
+                <img src="img/5 50.png" alt="" class="img-item">
+                <span class="precio-item">R$50</span>
+                <button class="boton-item">Colocar no Carrinho</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Combo 3xPicanha</span>
+                <img src="img/6 75.png" alt="" class="img-item">
+                <span class="precio-item">R$75</span>
+                <button class="boton-item">Colocar no Carrinho</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">X-Picanha com Fritas</span>
+                <img src="img/7 30.png" alt="" class="img-item">
+                <span class="precio-item">R$30</span>
+                <button class="boton-item">Colocar no Carrinho</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">X-Picanha com Coxinha</span>
+                <img src="img/8 30.png" alt="" class="img-item">
+                <span class="precio-item">R$30</span>
+                <button class="boton-item">Colocar no Carrinho</button>
+            </div>
+        </div>
+        <!-- Carrinho de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Carrinho</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+                <div class="carrito-item">
+                    <img src="img/1 30.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">X-PICANHA</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$30</span>
+                    </div>
+                   <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="img/2 35.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">X-BACON</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$35</span>
+                    </div>
+                   <button class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </button>
+                </div>
+                 -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <div class="carrito-envio">
+                        <span>Envio: </span><span class="costo-envio"></span>
+                    </div>                    
+                    <strong>Total:</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
